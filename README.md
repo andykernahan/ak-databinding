@@ -9,6 +9,8 @@ The expression may contain:
   * Binary expressions with operators `{And, Or, ExclusiveOr}` are evaluated using nullable boolean logic.
   * Binary expressions with operators `{AndAlso, OrElse}` are **not** supported as the operands are **not** evaluated in a short-circuiting manner.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/65lv8x5yemmf8mgh/branch/master?svg=true)](https://ci.appveyor.com/project/andykernahan/ak-databinding/branch/master)
+
 # Sample
 
 The full source is available [here](https://github.com/andykernahan/ak-databinding/blob/master/samples/Sandbox/Program.cs).
