@@ -1,0 +1,16 @@
+<Project>
+
+  <Import Project="build\CI.props" />
+  <Import Project="Version.props" />
+
+  <PropertyGroup>
+    <Product>AK.DataBinding</Product>
+    <Authors>Andy Kernahan</Authors>
+    <Copyright>Copyright (c) Andy Kernahan</Copyright>
+    <RepositoryUrl>https://github.com/andykernahan/ak-databinding</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>        
+  </PropertyGroup>
+
+</Project>
