@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>AK.DataBinding</AssemblyName>
     <RootNamespace>AK.DataBinding</RootNamespace>
+    <Description>Provides support for observing on expressions.</Description>
   </PropertyGroup>
 
 </Project>

@@ -6,11 +6,16 @@
   <PropertyGroup>
     <Product>AK.DataBinding</Product>
     <Authors>Andy Kernahan</Authors>
-    <Copyright>Copyright (c) Andy Kernahan</Copyright>
+    <Copyright>Copyright (c) $(Authors)</Copyright>
     <RepositoryUrl>https://github.com/andykernahan/ak-databinding</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryRoot>$(MSBuildThisFileDirectory)</RepositoryRoot>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>        
+    <PackageProjectUrl>$(RepositoryUrl)/blob/master/README.md</PackageProjectUrl>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 
 </Project>
