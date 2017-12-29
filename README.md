@@ -7,7 +7,7 @@ The expression may contain:
 * Equality and relational binary expressions.
 * Logical unary and binary expressions.
   * Binary expressions with operators `{And, Or, ExclusiveOr}` are evaluated using nullable boolean logic.
-  * Binary expressions with operators `{AndAlso, OrElse}` are **not** supported as the operands are **not** evaluated in a short-circuiting manner.
+  * Binary expressions with operators `{AndAlso, OrElse}` are **not** supported, primarily because they cannot be applied to nullable operands; secondarily, given the current implementation, the operands would **not** be evaluated in a short-circuited manner.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/65lv8x5yemmf8mgh/branch/master?svg=true)](https://ci.appveyor.com/project/andykernahan/ak-databinding/branch/master)
 
